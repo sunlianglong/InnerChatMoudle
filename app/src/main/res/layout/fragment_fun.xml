@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.canchatdemo.fragment.FunFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/myWhite">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="娱乐"
+            android:textSize="18dp"
+            android:textColor="@color/myBlue"/>
+    </LinearLayout>
+
+    <!--分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/lighterGray"/>
+
+    <Button
+        android:id="@+id/netImageSeeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:text="网络图片查看器"
+        android:background="@drawable/my_radius_solidblue"/>
+
+
+</LinearLayout>

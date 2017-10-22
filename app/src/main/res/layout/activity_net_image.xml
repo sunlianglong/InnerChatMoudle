@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/myWhite"
+    tools:context="com.example.administrator.canchatdemo.activity.NetImageActivity">
+
+    <ImageView
+        android:id="@+id/netImageView"
+        android:layout_weight="900"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/netImageUrlText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text ="http://banbao.chazidian.com/uploadfile/2016-01-25/s145368924044608.jpg"
+        android:textColor="@color/myBlack"
+        />
+    <Button
+        android:id="@+id/getNetImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取图片"
+        android:background="@drawable/my_radius_solidblue"/>
+</LinearLayout>
